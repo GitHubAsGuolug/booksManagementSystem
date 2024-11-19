@@ -32,6 +32,7 @@ public class FictionBook extends Book {
                 "\n作者: " + this.getAuthor() +
                 "\n价格: " + this.getPrice() +
                 "\nISBN: " + this.getISBN() +
-                "\n受众人群: " + this.getLevel();
+                "\n受众人群: " + this.getLevel()+
+                "\n借阅状态: "+this.isStatus();
     }
 }
