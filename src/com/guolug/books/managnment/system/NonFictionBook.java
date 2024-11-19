@@ -32,6 +32,7 @@ public class NonFictionBook extends Book {
                 "\n作者: " + this.getAuthor() +
                 "\n价格: " + this.getPrice() +
                 "\nISBN: " + this.getISBN() +
-                "\n题材: " + this.getTopic();
+                "\n题材: " + this.getTopic()+
+                "\n借阅状态: "+this.isStatus();
     }
 }
