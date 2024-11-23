@@ -3,6 +3,7 @@ package com.guolug.books.managnment.system;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         bookItem bookItem = new bookItem();
