@@ -8,7 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         bookItem bookItem = new bookItem();
         Book[] books = new Book[]{
-
 //                new FictionBook("西游记", "吴承恩", 250.00F, "345678901", "神话"),
 //                new FictionBook("红楼梦", "曹雪芹", 350.50F, "456789012", "古典文学"),
                 new FictionBook("三国演义", "罗贯中", 300.12F, "123456", "历史"),
